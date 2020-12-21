@@ -1,0 +1,41 @@
+@import url(//db.onlinewebfonts.com/c/1079aba7293cee85a36e6280bb7f3162?family=Feijoa+Bold);
+
+@font-face {
+  font-family: "Feijoa Bold";
+  src: url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.ttf") format("truetype")}
+
+@font-face {
+  font-family: 'NeueMachina-Ultrabold';
+  src:  url('neuemachina-ultrabold.woff2') format('woff2'),
+        url('neuemachina-ultrabold.woff') format('woff'),
+        url('neuemachina-ultrabold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LunchType-Regular';
+  src:  url('lunchtype22-regular-webfont.woff2') format('woff2'),
+        url('lunchtype22-regular-webfont.woff') format('woff'),
+        url('lunchtype22-regular-webfont.ttf') format('truetype');
+}
+
+body {
+  font-family: "LunchType-Regular", sans-serif;
+  font-size:  18px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #222629;
+}
+
+.marquee,
+.lunch-medium,
+.date,
+.date-2,
+.lineup h2 ,
+.button,
+.register h2,
+.submit {
+  font-family: 'Feijoa Bold', sans-serif;
+}
+

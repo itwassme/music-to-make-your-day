@@ -1,0 +1,77 @@
+.flex-column {
+  flex-direction: column;
+}
+
+.register {
+  min-height: 70vh;
+  display: flex;
+}
+
+.footer {
+  min-height: 35vh;
+  display: flex;
+  text-align: center;
+}
+
+.footer img {
+  max-width: 87px;
+  margin-bottom: 24px;
+}
+
+.button {
+  border-bottom: solid 2px #FFEECF;
+  color: #FFEECF;
+  line-height: 1;
+  min-width: 120px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.register .container {
+  display: flex;
+}
+
+.register h2 {
+  font-size: 40px;
+  margin-bottom: 48px;
+  line-height: 1.1;
+  color: #D0A12B;
+}
+
+.sign-up {
+  display: flex;
+  border-bottom: solid 2px #FFEECF;
+  padding-bottom: 12px;
+}
+
+input {
+  background: none;
+  border: none;
+  color: #FFEECF;
+  outline: none;
+}
+
+.email-input {
+  flex: 1;
+}
+
+.form {
+  margin: 48px 24px;
+}
+
+.form h2 {
+  font-size: 28px;
+}
+
+
+@media (max-width: 780px) {
+  .register .container {
+    flex-direction: column;
+  }
+  .register h2 {
+    font-size: 30px;
+  }
+  .form {
+    margin: 24px 0;
+  }
+}
